@@ -1,0 +1,14 @@
+[default.general]
+connect_under_reset = true
+chip = "STM32F401RETx"
+
+[default.rtt]
+enabled = true # true when using rtt-target 
+# enabled = false # false whem using gdb
+
+#  Uncomment for gdb
+# [default.gdb]
+# enabled = true
+
+# [default.reset]
+# halt_afterwards = true
